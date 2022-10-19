@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/musicBG.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+img{
+    width: 50px;
+}
+.bepop{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 0 10px;
+    /* align-items: center; */
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.reg{
+    border-radius: 13px;
+    padding: 5px 15px;
+    background-color: rgb(213, 73, 213);
+}
+.logins{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.main-cnt{
+    /* background-color: brown; */
+    /* border: 1px solid red; */
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin:100px;
+    gap: 40px;
+}
+h2{
+    font-size: 50px;
+}
+.down-btn{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.discover{
+    background-color: rgb(213, 73, 213);
+    background: linear-gradient(90deg, purple, blue);
+    padding: 10px;
+    color: white;
+    border-radius: 2px;
+}
+.purchase{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+}
+
+.ft-cnt{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(25, 23, 23);
+}
+.ft-content{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 40px;
+    align-items:center;
+}
+.ft-text{
+    padding-bottom: 20px;
+    font-size: smaller;
+}
